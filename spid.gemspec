@@ -24,7 +24,8 @@ Gem::Specification.new do |spec|
   }
   spec.required_ruby_version = ">= 2.3.0"
 
-  spec.add_runtime_dependency "activesupport", ">= 3.0.0", "< 5.3"
+  #spec.add_runtime_dependency "activesupport", ">= 3.0.0", "< 5.3"
+  spec.add_runtime_dependency "activesupport", ">= 3.0.0"
   spec.add_runtime_dependency "listen", ">= 0"
   spec.add_runtime_dependency "rack", ">= 1", "< 3"
   spec.add_runtime_dependency "rake", ">= 10.0", "< 13"
