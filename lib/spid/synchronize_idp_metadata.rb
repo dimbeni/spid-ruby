@@ -80,7 +80,8 @@ module Spid
     end
 
     def registry_url
-      "https://registry.spid.gov.it/api/identity-providers"
+      #"https://registry.spid.gov.it/api/identity-providers"
+      "https://registry.spid.gov.it/identity-providers"
     end
   end
 end
